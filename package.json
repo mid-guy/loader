@@ -1,0 +1,24 @@
+{
+	"name": "@mg/loader",
+	"version": "1.0.0",
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.esm.js",
+	"types": "dist/types/index.d.ts",
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^24.0.0",
+		"@rollup/plugin-node-resolve": "^15.0.0",
+		"@rollup/plugin-terser": "^0.4.4",
+		"@rollup/plugin-typescript": "^11.0.0",
+		"rollup": "^3.0.0",
+		"tslib": "^2.0.0",
+		"typescript": "^5.0.0"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [],
+	"license": "MIT"
+}
